@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baked By Ari — Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <h1>Baked By Ari Gallery</h1>
+    <a class="btn" href="index.html">Back to Home</a>
+  </header>
+
+  <main class="gallery-container">
+
+    <div class="gallery-grid">
+
+      <!-- 13 IMAGES -->
+      <img src="images/img-01.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-02.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-03.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-04.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-05.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-06.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-07.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-08.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-09.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-10.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-11.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-12.jpg" class="gallery-item" data-type="image">
+      <img src="images/img-13.jpg" class="gallery-item" data-type="image">
+
+      <!-- 6 VIDEOS (no posters needed) -->
+      <video class="gallery-item" src="videos/vid-01.mp4" muted playsinline></video>
+      <video class="gallery-item" src="videos/vid-02.mp4" muted playsinline></video>
+      <video class="gallery-item" src="videos/vid-03.mp4" muted playsinline></video>
+      <video class="gallery-item" src="videos/vid-04.mp4" muted playsinline></video>
+      <video class="gallery-item" src="videos/vid-05.mp4" muted playsinline></video>
+      <video class="gallery-item" src="videos/vid-06.mp4" muted playsinline></video>
+
+    </div>
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox hidden">
+    <button id="closeBtn" class="close-btn">×</button>
+    <button id="prevBtn" class="nav-btn prev">‹</button>
+    <button id="nextBtn" class="nav-btn next">›</button>
+
+    <div id="lightboxContent" class="lightbox-content"></div>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+
+<a href="https://instagram.com/arii_thabaker" class="instagram-btn" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+</a>
+</html>
